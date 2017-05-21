@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="cn" xmlns:btnId="http://www.w3.org/1999/xhtml" xmlns="">
+<meta charset="utf-8">
+<head>
+    <title>qq登录实例</title>
+
+    <script>//1.引入JS SDK的JS文件</script>
+    <script type="text/javascript"
+            src="http://qzonestyle.gtimg.cn/qzone/openapi/qc_loader.js"
+            data-appid="[1106092685]"
+            data-redirecturi="[http://localhost:63342/qqlogin/QQ_login.html]"
+            harset="utf-8"></script>
+
+    <script src="http://qzonestyle.gtimg.cn/qzone/openapi/qc_loader.js"
+            data-callback="true" charset="utf-8"  type="text/javascript"></script>
+
+    <span id="qqLoginBtn"></span>
+    <script type="text/javascript">
+ 
+        QC.Login.showPopup()({
+            appId:"[appId]",
+            redirectURI:"[www.buy2book.com/index]",//直接调起登陆页
+        });
+
+
+    </script>
+
+
+
+
+</head>
+<body>
+
+</body>
+</html>
